@@ -18,6 +18,14 @@ const flags = {
   music: {
     type: 'music',
     color: 'teal'
+  },
+  food: {
+    type: 'food',
+    color: 'chocolate'
+  },
+  'mixed drinks': {
+    type: 'drinks',
+    color: 'pink'
   }
 };
 
@@ -30,6 +38,14 @@ const locations: LocationType[] = [
   {
     name: 'Estelar',
     flags: ['hotel']
+  },
+  {
+    name: 'Buena Vida',
+    flags: ['food']
+  },
+  {
+    name: 'Porthos',
+    flags: ['drinks', 'food']
   }
 ];
 
